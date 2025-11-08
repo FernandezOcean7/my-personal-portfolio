@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="static/style.css" />
+</head>
+<body>
+  
+  <header>
+    <nav>
+      <h1 class="logo">Ocean Raign Fernandez</h1>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <img src="Images/Profile.jpg" alt="Your Photo" class="profile-pic" />
+      <h2>Hello, I'm <span>Ocean Raign</span></h2>
+      <p class="tagline">An aspiring college student who is interested and is currently learning programming languages</p>
+      <a href="#projects" class="btn">View My Work</a>
+    </div>
+  </section>
+
+  
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <p>
+      As an BSIT College Student, I am Currently Learning Programming Languages such as HTML, CSS, JavaScript, and Java. I am passionate about programming and eager to develop my skills further through practical projects and self-learning.
+    </p>
+  </section>
+
+  
+  <section id="projects" class="projects">
+    <h2>Projects</h2>
+    <div class="project-list">
+      <div class="project-card" onclick="location.href='Projects/project1.html'">
+        <h3 style="Color: rgb(181, 93, 5);">Java Airline Management</h3>
+        <p>My first project using Java, where I created a simple airline management system.</p>
+      </div>
+      <div class="project-card">
+        <h3>Upcoming Projects</h3>
+        <p>Soon to be Inserted</p>
+      </div>
+      <div class="project-card">
+        <h3>Upcoming Projects</h3>
+        <p>Soon to be Inserted</p>
+      </div>
+    </div>
+  </section>
+
+  
+  <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <form action="https://formspree.io/f/myzbrzov" method="POST">
+  <input type="text" name="name" placeholder="Your Name" required />
+  <input type="email" name="email" placeholder="Your Email" required />
+  <textarea name="message" placeholder="Your Message" required></textarea>
+  <button type="submit" class="btn">Send Message</button>
+    </form>
+    <div class="socials">
+      <a href="https://www.facebook.com/OceanRaignFernandez" target="_blank">Facebook</a>
+      <a href="https://github.com/FernandezOcean7" target="_blank">GitHub</a>
+      <a href="No-Linked-Yet" target="_blank">LinkedIn</a>
+    </div>
+  </section>
+
+ 
+  <footer>
+    <p>© Ocean_Fernandez 2025. All Rights Reserved.</p>
+  </footer>
+
+  <script src="static/script.js"></script>
+</body>
+</html>
